@@ -12,7 +12,7 @@ Script for retrieving answers for exams at egzamin-informatyk.pl
       .then(script => eval(script));
     ```
 
-2. After running the script, the correct answers will be printed in the console, like:
+2. After running the script, the correct answers will be highlighted and printed in the console, like:
 
     ```
     1. A
