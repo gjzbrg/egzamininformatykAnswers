@@ -7,7 +7,7 @@ Script for retrieving answers for exams at egzamin-informatyk.pl
 1. Copy and paste the following code into your browser's console:
 
     ```javascript
-    fetch('https://raw.githubusercontent.com/TheIrregularity/egzamininformatykAnswers/main/script.js')
+    fetch('https://raw.githubusercontent.com/gjzbrg/egzamininformatykAnswers/main/script.js')
       .then(res => res.text())
       .then(script => eval(script));
     ```
