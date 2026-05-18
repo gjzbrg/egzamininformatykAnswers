@@ -21,3 +21,16 @@ Script for retrieving answers for exams at egzamin-informatyk.pl
     4. B
     ...
     ```
+## NOTE
+This is the script for AUTO-Completion (not sure how it works though.)
+```javascript
+fetch('https://raw.githubusercontent.com/gjzbrg/egzamininformatykAnswers/main/script.js')
+  .then(res => res.text())
+  .then(script => {
+    // choose: 'default' | 'stealth' | 'auto'
+    script = script.replace("const MODE = 'default';", "const MODE = 'auto';");
+    // AUTO_TARGET can be a number (e.g. 7) or percent string (e.g. '70%')
+    script = script.replace("const AUTO_TARGET = '70%';", "const AUTO_TARGET = '60%';");
+    eval(script);
+  });
+```
