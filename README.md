@@ -1,3 +1,5 @@
+ORIGINAL AUTHOR: https://github.com/TheIrregularity
+
 # egzamin-informatyk.pl Answers Fetcher
 
 Script for retrieving answers for exams at egzamin-informatyk.pl
